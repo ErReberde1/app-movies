@@ -1,0 +1,22 @@
+{
+  "name": "movie-markup",
+  "version": "1.0.0",
+  "description": "Listado de tus cuatro peliculas favoritas.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/aurorajobs-challenges/movie-markup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/aurorajobs-challenges/movie-markup/issues"
+  },
+  "homepage": "https://gitlab.com/aurorajobs-challenges/movie-markup#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
