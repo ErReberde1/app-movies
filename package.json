@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Listado de tus cuatro peliculas favoritas.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "dev": "nodemon servidor.js",
+    "all": "npm-run-all --parallel sass dev"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,12 @@
   },
   "homepage": "https://gitlab.com/aurorajobs-challenges/movie-markup#readme",
   "dependencies": {
-    "node-sass": "^7.0.1"
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "node-sass": "^7.0.1",
+    "npm-run-all": "^4.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }

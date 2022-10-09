@@ -1,3 +1,14 @@
+#Para correr la aplicación en el servidor express y cargar los estilos de Sass es necesario seguir estos pasos.
+
+* npm install -> instalamos todas las dependencias del package json.
+* npm run all -> Este comando correrá tanto el script de sass como el del servidor express para servir la aplicación.
+
+
+
+
+
+
+
 # Movie Markup
 
 Listado de tus cuatro peliculas favoritas.
